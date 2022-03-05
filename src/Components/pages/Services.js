@@ -18,7 +18,7 @@ export default function Services() {
   const [selectedItem, setSelectedItem] = useState(null);
   const [selectedImage, setSelectedImage] = useState(null);
 
-  useEffect(async () => {
+  useEffect(() => {
     getItemsFromServer();
   }, []);
 
